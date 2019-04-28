@@ -25,6 +25,7 @@ const MainRoot = createAppContainer(createStackNavigator(
     headerMode: 'none',
     navigationOptions: {
       headerVisible: false,
+      gesturesEnabled: false,
     }
   }
 ));

@@ -145,7 +145,25 @@ export default class Login extends Component {
                 onPress={this.logout}
               />
               </View>
-              
+              <View
+                style={{
+                  flex: 1,
+                  marginTop: 20,
+                  width: SCREEN_WIDTH - 80,
+                  marginLeft: 40,
+                }}
+              >
+              <Button
+                title="Delete my account"
+                buttonStyle={{
+                  backgroundColor: colors.secondary,
+                }}
+                titleStyle={{
+                  fontWeight: 'bold'
+                }}
+                onPress={this.logout}
+              />
+              </View>
             </ScrollView>
           </View>
         ) : (

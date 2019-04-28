@@ -143,7 +143,7 @@ class NewLunch extends Component {
                 }}
               />
               <Button
-                title="Search"
+                title="Create"
                 loading={loading}
                 buttonStyle={{
                   borderRadius: 0,
